@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/monogram-wedding-animation",
+    basePath: "/mwa",
     output: "export",
     reactStrictMode: true,
 };

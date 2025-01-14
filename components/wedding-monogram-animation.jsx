@@ -15,7 +15,7 @@ const WeddingMonogramAnimation = ({ name = 'PAUL & RICA', date = '01.17.2025', d
   }, []);
 
   return (
-    <div className="flex items-center justify-center min-h-screen ">
+    <div className="flex items-center justify-center mt-[200px]">
       <motion.div
         key={key}
         className="text-center p-8 rounded-lg bg-[#FFF9F5]/10 backdrop-blur-sm"
