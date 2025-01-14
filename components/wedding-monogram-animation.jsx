@@ -24,7 +24,7 @@ const WeddingMonogramAnimation = ({ name = 'PAUL & RICA', date = '01.17.2025', d
         transition={{ duration: 1, delay }}
       >
         <motion.div key={key}
-          className="flex flex-col text-[180px] font-sans text-[#85777c] relative"
+          className="flex flex-col text-[230px] font-sans text-[#85777c] relative"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: delay + 0.5 }}
