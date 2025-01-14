@@ -3,11 +3,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const WeddingMonogramAnimation = ({ initials = 'PR', name = 'PAUL & RICA', date = '2023', delay = 0.5 }) => {
+const WeddingMonogramAnimation = ({ name = 'PAUL & RICA', date = '01.17.2025', delay = 0.5 }) => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex items-center justify-center min-h-screen ">
       <motion.div 
-        className="text-center p-8 rounded-lg bg-white shadow-lg"
+        className="text-center p-8 rounded-lg"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay }}
