@@ -33,7 +33,7 @@ export default function RootLayout({ children}) {
       <body>
         <Suspense>
           <video autoPlay loop muted playsInline className="fixed inset-0 w-full h-full object-cover z-[-1]">
-            <source src={'/monogram-wedding-animation/bg/vbg.mp4'} type="video/mp4"/>
+            <source src={'/mwa/bg/vbg.mp4'} type="video/mp4"/>
               Your browser does not support the video tag.
           </video>
         </Suspense>
