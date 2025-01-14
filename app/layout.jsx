@@ -10,6 +10,10 @@ const weddingFont = localFont({
 export default function RootLayout({ children}) {
   return (
     <html lang="en" className={weddingFont.variable}>
+      <video autoPlay loop muted playsInline className="fixed inset-0 w-full h-full object-cover z-[-1]">
+        <source src={'/bg/vbg.mp4'} type="video/mp4"/>
+          Your browser does not support the video tag.
+      </video>
       <body>{children}</body>
     </html>
   )
